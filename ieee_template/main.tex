@@ -1,10 +1,10 @@
 % Uncomment the following line if the paper is going to be published in journal
 
-%\documentclass[journal, twoside]{IEEEtran}
+\documentclass[journal, twoside]{IEEEtran}
 
 % Uncomment the following line if the paper is going to be published on the conference
 
-\documentclass[conference]{IEEEtran}
+%\documentclass[conference]{IEEEtran}
 
 % Warning: different journals/conferences migh have different requirements for the papers this is just a default template
 
@@ -85,6 +85,11 @@
 	%Glossary
 	\input{./headers/acronyms.tex}
 	
+
+	% Remember, if you use \IEEEpubid you must call \IEEEpubidadjcol in the second and first
+	% column for its text to clear the IEEEpubid mark.
+	\IEEEpubidadjcol
+	
 	
 	
 	\input{./sections/introduction.tex}
@@ -112,8 +117,6 @@
 	\nocite{*}
 	\bibliographystyle{IEEEtran}
 	\bibliography{IEEEabrv,./bibliography/refs.bib}
-	
-	
 	
 	\ifCLASSOPTIONjournal
 		\input{./headers/biography.tex}
