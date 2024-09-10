@@ -20,43 +20,43 @@ Warning--empty journal in article_first
 Done.
 You've used 4 entries,
             4087 wiz_defined-function locations,
-            1371 strings with 18430 characters,
-and the built_in function-call counts, 2517 in all, are:
-= -- 205
-> -- 44
+            1374 strings with 18456 characters,
+and the built_in function-call counts, 2467 in all, are:
+= -- 198
+> -- 41
 < -- 18
-+ -- 24
-- -- 7
-* -- 127
-:= -- 430
-add.period$ -- 8
++ -- 23
+- -- 6
+* -- 130
+:= -- 413
+add.period$ -- 7
 call.type$ -- 4
 change.case$ -- 4
 chr.to.int$ -- 42
 cite$ -- 5
 duplicate$ -- 170
 empty$ -- 187
-format.name$ -- 9
-if$ -- 547
+format.name$ -- 8
+if$ -- 538
 int.to.chr$ -- 0
 int.to.str$ -- 4
-missing$ -- 31
+missing$ -- 30
 newline$ -- 43
-num.names$ -- 4
-pop$ -- 76
+num.names$ -- 3
+pop$ -- 72
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 185
+skip$ -- 181
 stack$ -- 0
 substring$ -- 100
-swap$ -- 142
+swap$ -- 141
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 5
 type$ -- 4
 warning$ -- 1
-while$ -- 12
+while$ -- 11
 width$ -- 5
-write$ -- 67
+write$ -- 66
 (There was 1 warning)
